@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Dai+Banna+SIL&family=Montserrat:wght@600;900&display=swap");
+
+:root {
+  --clr-text: #06140e;
+  --clr-surface: #fbfefd;
+  --clr-primary: #6159cf;
+  --clr-secondary: #ecb1c5;
+  --clr-accent: #969d2f;
+
+  --fw-regular: 400;
+  --fw-medium: 600;
+  --fw-bold: 900;
+
+  --ff-body: "Dai Banna SIL", serif;
+  --ff-heading: "Montserrat", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --clr-text: #fbfefd;
+    --clr-surface: #06140e;
+    --clr-primary: #6159cf;
+    --clr-secondary: #040102;
+    --clr-accent: #d6dc89;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+{
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+html {
+    color-scheme: light dark;
+}
+
+body {
+    background-color: var(--clr-surface);
+    color: var(--clr-text);
+    font-family: var(--ff-body);
+    font-weight: var(--fw-regular);
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 100px;
+    background-color: var(--clr-primary);
+}
+
+ul li {
+    list-style: none;
+    color: var(--clr-accent);
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--clr-text);
+}
+
+.wrapper {
+    width: min(100% - 3rem, 55ch );
+    margin-inline: auto ;
+}
+
+h1,h2,p{
+    margin: 0 0 1rem 0;
+}
+
+
+
+h1 {
+    font-family: var(--ff-heading);
+    font-weight: var(--fw-bold);
+}
+
+h2 {
+    font-family: var(--ff-heading);
+    font-weight: var(--fw-medium);
+}
+
+.menu-img {
+    display: grid;
+    gap: 10px;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+/* Utility Class */
+.center {
+    text-align: center;
+}
