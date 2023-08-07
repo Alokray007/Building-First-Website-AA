@@ -3,4 +3,4 @@ I will be building a Website from Scratch.
 It's a Capstone Project given by App Academy.
 
 Live Website - 
-![Cafehousemdp](https://cafehousemdp.netlify.app)
+[Cafehousemdp](https://cafehousemdp.netlify.app)
