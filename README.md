@@ -2,5 +2,4 @@
 I will be building a Website from Scratch.
 It's a Capstone Project given by App Academy.
 
-Live Website - 
-[Cafehousemdp](https://cafehousemdp.netlify.app)
+- Live Site URL: [Netlify- Live Site](https://cafehousemdp.netlify.app/)
